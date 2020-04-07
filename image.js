@@ -89,7 +89,7 @@ const blint = async(event, context) => {
             "statusCode": 200,
             "isBase64Encoded": false,
             "body": JSON.stringify({
-                status: 'OK',
+                status: 200,
                 result:'uploaded',
                 url: `images/thumbnails/${imageId}_${modelName}.png`,
                 fullPath: `${S3_URL}images/thumbnails/${imageId}_${modelName}.png`,
